@@ -8,3 +8,13 @@ around the place with the push of a button
 
 In repository we are going to outline the steps and procedures for building an Arduino and Bluetooth controlled robotic arm on a rc 
 platform. Both the arm and the rc platform would be controlled manually using an android software.
+
+Repository Contents
+============
+* **/src** 
+* **/hardware** 
+* **/libraries** 
+* **/img** 
+* **/LICENSE** 
+* **/README.md** 
+
