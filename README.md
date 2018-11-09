@@ -18,3 +18,37 @@ Repository Contents
 * **/LICENSE** 
 * **/README.md** 
 
+Requirements and Materials
+============
+
+Dependencies:
+* Arduino 1.8.6 https://www.arduino.cc/en/Main/Software
+* MeArm Controller https://play.google.com/store/apps/details?id=appinventor.ai_Muhandi_prasetyo.MeArm&hl=en_US
+* Adafruit_Python_PCA9685 https://learn.adafruit.com/adafruit-16-channel-servo-driver-with-raspberry-pi/using-the-adafruit-library
+
+Bill of Materials:
+* old rc truck/car
+* card board
+* old plastic bottle
+* two cd
+* real (cylindrical hollow object)
+* glue sticks
+* 21 X AA batteries 
+* 3 X battery holder (12v, 7v, 6v)
+* wires
+* 4 X SG90 servo motors
+* 1 X L298N motor driver
+* 1 x HC-06 Bluetooth module
+* 1 x servo driver (PCA 9685 16 channel pmw servo)
+* two similar gear 1.5cm diameter 
+* Arduino UNO
+* Solderless Plug-in Breadboard
+
+Equipment:
+* glue gun
+* screw drivers
+* knife
+* scissor
+* nipper
+* drill machine and drill bits
+
