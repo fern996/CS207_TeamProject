@@ -1,5 +1,8 @@
 # CS207_TeamProject
 
+ArduinoHmGoBot(Arduino-Home-made-Go-Robot) <V.0.0.1>
+=============
+
 About this project
 ===========
 
