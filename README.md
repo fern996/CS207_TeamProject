@@ -63,7 +63,9 @@ robotic arm:
 
 base - for the base i will be using a real of doctape, two cd/DVD. Pieces of card board would need to be fitted into the tape real for          mounting the servo motor using glue. the middle portion of th e first one cd would be removed in order for accommodating the            servo lever. The servo lever is mounted with using glue onto the second cd in the centre. the second cd is been then placed            onto the first affixing the servo lever onto the servo head with a screw.
 
-        //picture would be provided soon
+![alt text][pic1]
+
+[pic1]: https://github.com/rajuRapc/CS207_TeamProject/blob/master/img/base.png"Logo Title Text 2"
         
  shoulder support - for the shoulder we are using card board, and plastic taken from bottle, servo. Three pieces of card board and one                       piece of plastic each with dimensions 3 inches by 2 inches. After or before sandwiching the pieces together with                       the plastic piece on the outer end a triangular portion the size of the servo would need to be removed. as shown in                     the picture a second piece would be cut for providing additional support. Assemble the piece as shown in the                           picture below onto the base.
  
