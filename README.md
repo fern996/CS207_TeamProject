@@ -1,5 +1,6 @@
 # CS207_TeamProject
 
+
 ArduinoHmGoBot(Arduino-Home-made-Go-Robot) <V.0.0.1>
 =============
 
@@ -77,4 +78,8 @@ base - for the base i will be using a real of doctape, two cd/DVD. Pieces of car
            
 elbow - for the elbow we are using two pieces of card board and two pieces of plastic with dimensions 8.5 inches by o.34 inch with the           first two inches along the length measuring 1.25 inches. In the middle of the 2 by 1.25 inches portion before or after                 sandwiching the pieces remove a rectangular portion the size of the servo motor case. Your end result should be looking like           the one below.
 
+
+=======
+the beginning
+2018-10-08 raju chatelall
 
