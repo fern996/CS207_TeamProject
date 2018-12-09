@@ -17,7 +17,7 @@ Repository Contents
 ============
 * **/src** 
 * **/hardware** 
-* **/Building Process
+* **/Building Process**
 * **/libraries** 
 * **/img** 
 * **/LICENSE** 
