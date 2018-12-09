@@ -2,7 +2,19 @@
 Build Instructions
 ==================
 
+Circuit designs for the Proect
+============================
+
+//rc truck
+//servo circuit
+//bluetooth circuit
+//stepper motor circuit
+//lighten system circuit
+
+
+
 Rc truck:
+=========
 The shell for the truck was removed using a Philip head screw driver along with the circuit board. Jumper 
 cables were connected to the battery pack on the truck. The 12V battery pack was glued on to the back of 
 the truck frame. The wires for the dc motors and the battery packs were all stripped and fixed into position 
@@ -19,6 +31,7 @@ wheel. Connections for the piezo buzzer is this be made along with the Bluetooth
 
 
 The build process for the robotic arm:
+======================================
 
 Base: a template of the inner circle for the duct tape real was drawn and cut out using a knife, this process was repeated three 
 times. The pieces were then glued to together and placed into the real level to one end. A template of the inner potion of the real 
@@ -60,6 +73,22 @@ corrugated plastic. The second piece of corrugated plastic board is fixed onto o
 strips of corrugated plastic board. 
 
 //picture of the gripper components placed here
+
+
+ Lighting system
+ ===========
+The lighten system was fairly simple to construct and install. The 4-white led in the front were installed using A 6 inches by 1-inch cardboard. A piece of foil was used to cover the cardboard with the shiny side facing the outer side. Four pairs of holes were drilled using a drill machine evenly spaced for the led legs to pass through. The led were secured to the card board using hot glue. The cathode of all four led were connected to a command jumper cable and connected to the ground on the breadboard. While the Anodes were all separately connected jumper wires and to the shift register. The two lights on the sides were each placed on a 1 inch by 1-inch piece of card board with foil. The same procedure followed for connecting the front lights were followed for connecting the sidelights. The backlights and break lights were mounted onto cardboard cover with a red-light shade and glued onto the back of the truck on both sides. While the front, side and backlights were connected to the shift register the break lights were connected to pins A1 and A2.
+
+
+Putting the system together and uploading the code
+==============================
+The PC9685 servo module is glued to the outer lift side of the duct tape real. The electrical components for the servo driver is power by the Arduino connected to the breadboard. The battery pack for the PC9685 is glued to the underside of the truck. The ULN2003 stepper motor driver is glued onto the back of the duct tape real. The IN1 to IN4 pins are connected directly to the Arduino and is powered of the bread board pins connected to the truck’s battery pack which also powers the Arduino.  
+The shift registers and led are also connected on the bread board along with the photoresistor. The Bluetooth module used for connection to the android device was also connected to the bread board. The piezo buzzer is connected to the bread board. 
+After the final build was completed for the remote-controlled truck, the remote-controlled arm and the lighten system. The arm was glued onto the truck. For stronger grip sponge was added to the inner rim of the claws. For presentation, the cardboard enclosure for the breadboard was added along with an operator’s seat. The Bluetooth module and photoresistor was moved from the breadboard onto the top of the enclosure. 
+A link to the code used for the ArduinoHmGoBot can be found in Appendix N. A user would also need to download two libraries. One for PC9685 servo driver taken from (use this link for referencing https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) and The ULN2003 stepper motor driver library taken from Facchinm “arduino-libraries/Stepper” from github.com [12]. Before uploading the code to the Arduino disconnect the Bluetooth module (The Rx and Tx pins are used to program the Arduino). The Android application used for controlling the ArduinoHmGoBot can be downloaded from Eagle Robotics “Robotic Arm Bluetooth Arduino” from play.google.com[13].
+
+
+
 
 //picture of the final complete build
 
