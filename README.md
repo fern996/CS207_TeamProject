@@ -2,7 +2,7 @@
 
 
 ArduinoHmGoBot(Arduino-Home-made-Go-Robot) 
-=============
+===================
 
 About this project
 ===========
@@ -64,7 +64,18 @@ Equipment:
 * nipper
 * drill machine and drill bits
 
+Team
+============
 
+The build team consited of:
 
+* Raju Chatelall
+* Shawn Fernandes
 
+Raju Chatelall did the research for building the robotic arm and coding the robotic arm, car and lighting system. Shawn Fernandes major contribution towards the project were the researches done for building and coding the car. The design for constructing the lighting system was done by both partners.
 
+Credits
+=============
+
+* Trevor Tomesh: Guidance and support
+* Anusha: Robotic arm prototype, https://www.electronicshub.org/robotic-arm/
