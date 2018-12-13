@@ -1,17 +1,20 @@
 # CS207_TeamProject
 
 
-ArduinoHmGoBot(Arduino-Home-made-Go-Robot) <V.0.0.1>
-=============
+ArduinoHmGoBot(Arduino-Home-made-Go-Robot) 
+===================
 
 About this project
 ===========
 
-Wouldn't it be great if we are able to build a robotic arm that’s controlled wirelessly at home? Which also have the capability to move
-around the place with the push of a button
+Wouldn't it be great if we are able to build a robotic arm that’s controlled wirelessly at home? If you think that’s great, then what do you think about a mobile robotic arm? This is how the ArduinoHmGoBot was created. The ArduinoHmGoBot is an amalgamation of a toy truck and a homebuilt Robotic Arm, that is controlled using an Android Bluetooth device on an Arduino platform.                               
 
-In repository we are going to outline the steps and procedures for building an Arduino and Bluetooth controlled robotic arm on a rc 
-platform. Both the arm and the rc platform would be controlled manually using an android software.
+![alt text][pic1]
+
+[pic1]: https://github.com/sf0912/CS207_TeamProject/blob/Sf0912-2/img/Left.jpeg?raw=true																			
+ 	The idea for the project is to incorporate separate systems to create one system as a whole that is functional. Three systems are combined to make ArduinoHmGoBot (1) The remote-controlled truck (2) the robotic arm and (3) the lighting system. All system processing is managed by an Arduino, with different dedicated coprocessors used to handle specific components in each system.                        
+	While others have made similar projects as we have, our projects include different designs, such as counterweights in the shoulder to provide extra lifting force in the arm. Cardboard the main material used to make the ArduinoHmGoBot arm.
+
 
 Repository Contents
 ============
@@ -28,8 +31,9 @@ Requirements and Materials
 
 Dependencies:
 * Arduino 1.8.6 https://www.arduino.cc/en/Main/Software
-* MeArm Controller https://play.google.com/store/apps/details?id=appinventor.ai_Muhandi_prasetyo.MeArm&hl=en_US
+* Eagle Roboticshttps https://play.google.com/store/apps/details?id=appinventor.ai_Eaglerobotics86.RoboticArm
 * Adafruit_Python_PCA9685 https://learn.adafruit.com/adafruit-16-channel-servo-driver-with-raspberry-pi/using-the-adafruit-library
+* Facchinm “Arduino-libraries/Stepper” from github.com https://github.com/arduino-libraries/Stepper
 
 Bill of Materials:
 * old rc truck/car
@@ -61,10 +65,18 @@ Equipment:
 * nipper
 * drill machine and drill bits
 
+Team
+============
 
+The build team consited of:
 
+* Raju Chatelall
+* Shawn Fernandes
 
-=======
-the beginning
-2018-10-08 raju chatelall
+Raju Chatelall did the research for building the robotic arm and coding the robotic arm, car and lighting system. Shawn Fernandes major contribution towards the project were the researches done for building and coding the car. The design for constructing the lighting system was done by both partners.
 
+Credits
+=============
+
+* Trevor Tomesh: Guidance and support
+* Anusha: Robotic arm prototype, https://www.electronicshub.org/robotic-arm/
