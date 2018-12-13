@@ -88,7 +88,7 @@ inserted and secured using hot glue.
 
 Gripper- two pieces of Corrugated plastic boards are cut out in dimensions 3 inches by 1.5 inches using a knife. An opening is made in
 one piece of the board as showing in Appendix I for the servo shaft to pass through. Two claws are hand drawn on papers using ideas from
-Diyushar “How To Make Electric ARM Robot at Home” from blogspot.com [11]. The templates are paste onto the stiff plastic and cut out 
+Diyushar “How To Make Electric ARM Robot at Home” from blogspot.com [1]. The templates are paste onto the stiff plastic and cut out 
 using a scissors. The claws are then drawn onto the foam and cut out and secured together using hot glue. On the plastic ends of the 
 claws the two plastic gears are hot glued onto them and holes were drilled using the drilling machine in the centre of the gears. The 
 servo was then placed in the opening made on the corrugated plastic board and secured with hot glue. A picture with these components 
@@ -111,7 +111,7 @@ Putting the system together and uploading the code
 The PC9685 servo module is glued to the outer lift side of the duct tape real. The electrical components for the servo driver is power by the Arduino connected to the breadboard. The battery pack for the PC9685 is glued to the underside of the truck. The ULN2003 stepper motor driver is glued onto the back of the duct tape real. The IN1 to IN4 pins are connected directly to the Arduino and is powered of the bread board pins connected to the truck’s battery pack which also powers the Arduino.  
 The shift registers and led are also connected on the bread board along with the photoresistor. The Bluetooth module used for connection to the android device was also connected to the bread board. The piezo buzzer is connected to the bread board. 
 After the final build was completed for the remote-controlled truck, the remote-controlled arm and the lighten system. The arm was glued onto the truck. For stronger grip sponge was added to the inner rim of the claws. For presentation, the cardboard enclosure for the breadboard was added along with an operator’s seat. The Bluetooth module and photoresistor was moved from the breadboard onto the top of the enclosure. 
-A link to the code used for the ArduinoHmGoBot can be found in Appendix N. A user would also need to download two libraries. One for PC9685 servo driver taken from (use this link for referencing https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) and The ULN2003 stepper motor driver library taken from Facchinm “arduino-libraries/Stepper” from github.com [12]. Before uploading the code to the Arduino disconnect the Bluetooth module (The Rx and Tx pins are used to program the Arduino). The Android application used for controlling the ArduinoHmGoBot can be downloaded from Eagle Robotics “Robotic Arm Bluetooth Arduino” from play.google.com[13].
+A link to the code used for the ArduinoHmGoBot can be found in Appendix N. A user would also need to download two libraries. One for PC9685 servo driver taken from (use this link for referencing https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library) and The ULN2003 stepper motor driver library taken from Facchinm “arduino-libraries/Stepper” from github.com [2]. Before uploading the code to the Arduino disconnect the Bluetooth module (The Rx and Tx pins are used to program the Arduino). The Android application used for controlling the ArduinoHmGoBot can be downloaded from Eagle Robotics “Robotic Arm Bluetooth Arduino” from play.google.com[3].
 
 
 
@@ -122,4 +122,14 @@ A link to the code used for the ArduinoHmGoBot can be found in Appendix N. A use
 [pic10]: https://github.com/sf0912/CS207_TeamProject/blob/Sf0912-2/img/Left.jpeg?raw=true
 
 
+References
+================
+[1] Diyushar (December 3, 2017) How To Make Electric ARM Robot at Home, Retrieved December 1st,2018, from 	
+http://diyushar.blogspot.com/2017/12/how-to-make-electric-arm-robot-at-home.html
+
+[2] Facchinm(Mar 8, 2016) “Arduino-libraries/Stepper” Retrieved December 3rd, 2018, from 
+https://github.com/arduino-libraries/Stepper
+
+[3] Eagle Robotics (February 25, 2017) Robotic Arm Bluetooth Arduino (version 1.0) [mobile application], from
+https://play.google.com/store/apps/details?id=appinventor.ai_Eaglerobotics86.RoboticArm
 
