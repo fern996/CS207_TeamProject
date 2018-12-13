@@ -31,7 +31,7 @@ Requirements and Materials
 
 Dependencies:
 * Arduino 1.8.6 https://www.arduino.cc/en/Main/Software
-* MeArm Controller https://play.google.com/store/apps/details?id=appinventor.ai_Muhandi_prasetyo.MeArm&hl=en_US
+* Eagle Roboticshttps https://play.google.com/store/apps/details?id=appinventor.ai_Eaglerobotics86.RoboticArm
 * Adafruit_Python_PCA9685 https://learn.adafruit.com/adafruit-16-channel-servo-driver-with-raspberry-pi/using-the-adafruit-library
 
 Bill of Materials:
