@@ -29,7 +29,7 @@ Circuit designs for the Proect
 
 [pic4]: https://github.com/sf0912/CS207_TeamProject/blob/master/img/StepperMotor%20circuit.png?raw=true
 
-* **Lighting System Circuit:**
+* **Light System Circuit:**
 
 ![alt text][pic5]
 
@@ -101,7 +101,7 @@ strips of corrugated plastic board.
 
 [pic9]:https://github.com/sf0912/CS207_TeamProject/blob/master/img/Claw.jpeg?raw=true
 
- Lighting system
+ Light system
  ===========
 The lighting system was fairly simple to construct and install. The 4-white led in the front were installed using A 6 inches by 1-inch cardboard. A piece of foil was used to cover the cardboard with the shiny side facing the outer side. Four pairs of holes were drilled using a drill machine evenly spaced for the led legs to pass through. The led were secured to the card board using hot glue. The cathode of all four led were connected to a command jumper cable and connected to the ground on the breadboard. While the Anodes were all separately connected jumper wires and to the shift register. The two lights on the sides were each placed on a 1 inch by 1-inch piece of card board with foil. The same procedure followed for connecting the front lights were followed for connecting the sidelights. The backlights and break lights were mounted onto cardboard cover with a red-light shade and glued onto the back of the truck on both sides. While the front, side and backlights were connected to the shift register the break lights were connected to pins A1 and A2.
 
