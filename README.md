@@ -7,11 +7,10 @@ ArduinoHmGoBot(Arduino-Home-made-Go-Robot) <V.0.0.1>
 About this project
 ===========
 
-Wouldn't it be great if we are able to build a robotic arm that’s controlled wirelessly at home? Which also have the capability to move
-around the place with the push of a button
+Wouldn't it be great if we are able to build a robotic arm that’s controlled wirelessly at home? If you think that’s great, then what do you think about a mobile robotic arm? This is how the ArduinoHmGoBot was created. The ArduinoHmGoBot is an amalgamation of a toy truck and a homebuilt Robotic Arm, that is controlled using an Android Bluetooth device on an Arduino platform.                                
+ 	The idea for the project is to incorporate separate systems to create one system as a whole that is functional. Three systems are combined to make ArduinoHmGoBot (1) The remote-controlled truck (2) the robotic arm and (3) the lighting system. All system processing is managed by an Arduino, with different dedicated coprocessors used to handle specific components in each system.                        
+	While others have made similar projects as we have, our projects include different designs, such as counterweights in the shoulder to provide extra lifting force in the arm. Cardboard the main material used to make the ArduinoHmGoBot arm.
 
-In repository we are going to outline the steps and procedures for building an Arduino and Bluetooth controlled robotic arm on a rc 
-platform. Both the arm and the rc platform would be controlled manually using an android software.
 
 Repository Contents
 ============
